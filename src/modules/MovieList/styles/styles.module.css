@@ -1,0 +1,21 @@
+.movieContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  margin: 10px 0 20px 0;
+}
+@media (min-width: 1024px) {
+  .movieContainer {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: auto auto;
+    margin: 36px 0 36px 0;
+    justify-content: center;
+  }
+}
+@media (min-width: 1200px) {
+  .movieContainer {
+    grid-gap: 40px;
+  }
+}

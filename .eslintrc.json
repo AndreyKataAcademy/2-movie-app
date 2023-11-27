@@ -15,12 +15,12 @@
     "ecmaFeatures": {
       "jsx": true
     },
-    "ecmaVersion": 14,
+    "ecmaVersion": 12,
     "sourceType": "module"
   },
   "plugins": ["react", "prettier", "import"],
   "rules": {
-    "indent": ["error", 2],
+    "indent": "off",
     "prettier/prettier": "error",
     "linebreak-style": [0, "unix"],
     "quotes": ["error", "double"],
@@ -29,20 +29,21 @@
     "react/prop-types": 0,
     "import/no-unresolved": [2, { "caseSensitive": false }],
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-    "import/order": [
-      2,
-      {
-        "groups": [
-          "builtin",
-          "external",
-          "internal",
-          "parent",
-          "sibling",
-          "index"
-        ],
-        "newlines-between": "always"
-      }
-    ]
+    "import/order": "off"
+    //    "import/order": [
+    //      2,
+    //      {
+    //        "groups": [
+    //          "builtin",
+    //          "external",
+    //          "internal",
+    //          "parent",
+    //          "sibling",
+    //          "index"
+    //        ],
+    //        "newlines-between": "always"
+    //      }
+    //    ]
   },
   "settings": {
     "import/resolver": {
