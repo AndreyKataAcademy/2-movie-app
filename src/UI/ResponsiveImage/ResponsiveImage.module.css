@@ -1,0 +1,7 @@
+.adaptiveImage {
+  max-inline-size: 100%;
+  block-size: auto;
+  object-fit: cover;
+  object-position: top center;
+  height: 100%;
+}
